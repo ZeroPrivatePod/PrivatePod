@@ -13,6 +13,7 @@
 		81F043DB204FDB6100FB9B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F043DA204FDB6100FB9B86 /* Assets.xcassets */; };
 		81F043DE204FDB6100FB9B86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F043DC204FDB6100FB9B86 /* LaunchScreen.storyboard */; };
 		81F043E1204FDB6100FB9B86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F043E0204FDB6100FB9B86 /* main.m */; };
+		81F043EA204FDDF400FB9B86 /* PodClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F043E9204FDDF400FB9B86 /* PodClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		81F043DD204FDB6100FB9B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81F043DF204FDB6100FB9B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81F043E0204FDB6100FB9B86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81F043E8204FDDF400FB9B86 /* PodClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodClass.h; sourceTree = "<group>"; };
+		81F043E9204FDDF400FB9B86 /* PodClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		81F043D0204FDB6100FB9B86 /* AComponent */ = {
 			isa = PBXGroup;
 			children = (
+				81F043E7204FDDE900FB9B86 /* Class */,
 				81F043D1204FDB6100FB9B86 /* AppDelegate.h */,
 				81F043D2204FDB6100FB9B86 /* AppDelegate.m */,
 				81F043D4204FDB6100FB9B86 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				81F043E0204FDB6100FB9B86 /* main.m */,
 			);
 			path = AComponent;
+			sourceTree = "<group>";
+		};
+		81F043E7204FDDE900FB9B86 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				81F043E8204FDDF400FB9B86 /* PodClass.h */,
+				81F043E9204FDDF400FB9B86 /* PodClass.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 			files = (
 				81F043D6204FDB6100FB9B86 /* ViewController.m in Sources */,
 				81F043E1204FDB6100FB9B86 /* main.m in Sources */,
+				81F043EA204FDDF400FB9B86 /* PodClass.m in Sources */,
 				81F043D3204FDB6100FB9B86 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
